@@ -1,6 +1,7 @@
 /* eslint-disable no-console */
 import { withPluginApi } from "discourse/lib/plugin-api";
-import showModal from "discourse/lib/show-modal";
+import { inject as service } from "@ember/service";
+import { tracked } from "@glimmer/tracking";
 import DiscourseURL from "discourse/lib/url";
 
 export default {
